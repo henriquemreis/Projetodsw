@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, inicial-scaler=1.0"> 
+
+    </head>
+    <body background = "fotoamarela.PNG">
+        <dogtype html></dogtype>
+        </align-left>
+        <link rel = "stylesheet" href = "csscontato.css">
+        <main>
+            <a href = "pagina.html">
+                <img src="imagem2.png"
+                width="100"
+                onclick="mensagem()"
+                >
+            </a>
+            <div class="div-form">
+                <form name="campocomentarios" method="post" id="formulario" onsubmit="return true">
+                    <div class="box">
+                        <h1>Formulario de Contato :</h1>
+                
+                        <label>
+                            <span>Nome Completo</span>
+                             <input type="text" class="input_text" name="nome" id="name" required/>
+                
+                        </label>
+                
+                        <label>
+                             <span>Email</span>
+                            <input type="text" class="input_text" name="email" id="email" required/>
+                         </label>
+                
+                        <label>
+                             <span>Assunto</span>
+                            <input type="text" class="input_text" name="assunto" id="subject" required/>
+                        </label>
+                
+                        <label>
+                             <span>Mensagem</span>
+                            <textarea class="message" name="feedback" id="feedback" required></textarea>
+                            <input type="button" class="button" value="Enviar"/>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <style> 
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .form {
+            display: flex;
+            justify-content: right
+        }
+
+        .form {
+            width: 100vw;
+            max-width: 100%;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column
+        }
+
+        .form {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        .max-width{
+            width: 100vw;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        form input, form textarea{
+            outline: unset;
+            padding: 20px;
+            width: 300px;
+            border: 1px solid rgb(131, 79, 0);
+            border-radius: 20px;
+        }
+        textarea {
+            height: 150px;
+        }
+
+        .max-width{
+            width: 100vw;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        p {
+          color: rgb(0, 0, 0);
+          text-align: left;
+          border: 1px solid;
+          padding: 5px;
+          box-shadow: 2px 5px;
+        }
+
+        body {
+                font: normal 16px 'Times New Roman', serif;
+                text-align: left;
+            }
+        p{
+            text-align: justify;
+            text-indent: 30px;
+        }
+        </style>
+
+
+    <footer class= "rodape">
+        Henrique Milans dos Reis - 2021&copy;
+    </footer>    
+</body>
+</html>
